@@ -1,0 +1,60 @@
+
+/*CODIGO DO SISTEMA DE IMAGENS*/
+#output{
+    width:240px;
+    height:190px;
+    cursor:pointer;
+    margin-left: 20%;
+}
+.file_customizada::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .file_customizada:hover::before {
+    border-color: black;
+  }
+  .file_customizada:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  label.labelInput input[type="file"] {
+      position: fixed;
+      top: -1000px;
+  }
+  
+  labelInput {
+      border: 2px solid #AAA;
+      border-radius: 4px;
+      padding: 2px 5px;
+      margin: 2px;
+      background: #DDD;
+      display: inline-block;
+  }
+ /*  .labelInput:hover {
+      background: #CCC;
+  } */
+  .labelInput:active {
+      background: #CCF;
+  }
+  .labelInput :invalid + span {
+      color: #A44;
+  }
+  .labelInput :valid + span {
+      color: #4A4;
+  }
+  
+  .c{color:red;font-size:20px;}
+  .q{color:red;font-size:20px;}
+  /*fecha sistema de cadastro de imagens*/

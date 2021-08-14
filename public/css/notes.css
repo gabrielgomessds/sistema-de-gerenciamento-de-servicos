@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 16%;
+    border-radius: 8px;
+    margin: 20px 120px;
+}
+.logo-store img{
+    height: 140px;
+
+}
+.info-store{
+    text-align: center;
+}
+.info-store p{
+    padding: 6px 0px;
+}
+.data-client{
+    display: grid;
+    grid-template-columns: auto auto auto;
+     grid-template-rows: auto auto auto auto;
+    padding: 0px 10%;
+    border-radius: 8px;
+    margin: 20px 90px;
+}
+.info_client{
+    padding: 8px;
+    margin-right: 9px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.info_client p{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.data-client span{
+    font-weight:bold;
+    
+}
+
+.data-product{
+    display: grid;
+    grid-template-columns: auto ;
+     grid-template-rows: auto auto auto auto;
+    padding: 0px 10%;
+    border-radius: 8px;
+    margin: 20px 90px;
+}
+.data-product span{
+    font-weight:bold;
+    
+}
+.data-product h4{
+    padding: 10px;
+}
+ hr{
+    border-bottom: 2px solid #35363a;
+   
+}
+.info_produtct{
+    padding: 8px;
+    margin-right: 9px;
+    margin-top: 10px;
+}
+.termos{
+    flex-direction: column;
+}
+.termos ol li{
+    font-size: 17px;
+}
+
+/* .table-client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 15%;
+    border: 2px solid #35363a;
+    border-radius: 8px;
+    margin: 20px 90px;
+}
+.table-client table{
+    border-collapse:collapse;
+    margin-bottom: 20px;
+}
+.table-client table thead th{
+    background-color: #35363a;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    padding: 10px 10px;
+}
+.table-client table tbody td{
+    text-align: center;
+    padding: 10px 30px;
+    border: 2px solid #35363a;
+} */
+.table-buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 16%;
+    border-radius: 8px;
+    margin: 20px 30px;
+}
+.table-buy table{
+    border-collapse:collapse;
+}
+
+.table-buy table thead th{
+    background-color: #35363a;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 30px;
+}
+.table-buy table tbody td{
+    text-align: center;
+    padding: 5px;
+}
+.table-buy h2{
+    color: #4285f4;
+}
+.func-signatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 15%;
+    border-radius: 8px;
+    margin: 50px 90px;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 15%;
+    border-radius: 8px;
+    margin: 20px 90px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15%;
+    border-radius: 8px;
+    margin: 20px 90px;
+}
+.linha{
+    border-bottom: 2px dotted #35363a;
+}
+@media print {
+    .table-buy table thead th{
+        -webkit-print-color-adjust: exact !important;
+    }
+    .header-note{
+        margin: 0;
+        padding: 0px 50px;
+    }
+    .info-store{
+        padding-right: 20px;
+    }
+    .table-client{
+        margin: 20px 0px;
+        padding: 0px 50px;
+    }
+    .table-buy{
+        margin: 0;
+        padding: 0px 10px;
+    }
+    .data-client{
+        display: grid;
+        grid-template-columns: auto auto auto;
+         grid-template-rows: auto auto auto auto;
+        padding: 0px 5%;
+        border-radius: 8px;
+        margin: 20px 0px;
+    }
+    .data-product{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        padding: 0px 2%;
+        border-radius: 8px;
+        margin: 20px 0px;
+        
+    }
+
+    .termos{
+        margin: 20px 0px;
+        padding: 0px 50px;
+    }
+
+ 
+    
+}

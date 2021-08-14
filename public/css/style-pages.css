@@ -1,0 +1,197 @@
+.invisivel{
+    display: none;
+}
+.footer-page{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+    font-style: italic;
+}
+.section-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.container-page{
+    background-color: #fff;
+    width: 63%;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.container-page textarea{
+    width: 100%;
+    font-weight: bold;
+    height: 280px;
+    padding-left: 10px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    resize: none;
+}
+.for,
+.container-page h2,
+.container-page h3{
+    color: #3498db;
+}
+.container-page fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border: none;
+}
+.container-page .campo{
+    width: 100%;
+    padding: 10px;
+}
+
+.container-page input[type="text"]:disabled,
+.container-page input[type="email"]:disabled{
+    background-color: #e2e3e5;
+    font-weight: bold;
+}
+.container-page label{
+    font-weight: bold;
+}
+.container-page input[type="text"],
+.container-page input[type="email"],
+.container-page input[type="password"],
+.container-page input[type="date"],
+.container-page select{
+    width: 100%;
+    height: 30px;
+    outline:none;
+    font-weight: bold;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid #333;
+    font-size: 15px;
+    
+}
+.container-page .text{
+    width: 93%;
+    height: 30px;
+    outline:none;
+    font-weight: bold;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+}
+.input-password{
+    border: 1px solid #009688;
+    width: 101%;
+    height: 30px;
+    outline:none;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid #333;
+    font-size: 15px;
+}
+.input-password input[type="password"]{
+    width: 93%;
+    height: 30px;
+    outline:none;
+    font-weight: bold;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+}
+.vendas-realizadas{
+    width: 70%;
+}
+.input-password i{
+    cursor: pointer;
+    font-size: 22px;
+    padding-left: 5px;
+}
+.container-page button{
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    border:none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttons-container-page{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;  
+}
+.link-button{
+    padding: 12px;
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+.link__button{
+    background: #3d3d3d; 
+    border-radius: 6px;
+    padding: 12px;
+    cursor: pointer; 
+    color: #fff;
+    border: none; 
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.voltar{
+    text-decoration: none;
+    color: #3498db;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-finalizar{
+    background-color: #3498db;
+}
+.btn-alterar{
+    background-color: #009688;
+}
+.btn-excluir{
+    background-color: #db4437;
+}
+
+.btn-finalizar:hover{
+    background-color: #38cee9;
+}
+.btn-alterar:hover{
+    background-color: #2dbbad;
+}
+.btn-excluir:hover{
+    background-color: #f72512;
+}
+.total_valor{
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.pagar{
+    font-size: 22px;
+}
+@media (max-width: 950px){
+    .container-page{
+        width: 85%;
+        padding-left: 5px;
+       
+    }
+    .link__button{
+        margin-bottom: 10px;
+    }
+}
