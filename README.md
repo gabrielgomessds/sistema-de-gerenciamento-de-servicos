@@ -19,6 +19,12 @@ Esse sistema foi meu primeiro freelancer, recebi a aprovação do comprador para
   <li>PHP OO MVC</li>
 </ol>
 
+<h3>Como usar: </h3>
+<ol>
+  <li>Ter instalado PHP 7.3</li>
+  <li>Ter instalado o XAMPP</li>
+</ol>
+
 <h3>Principais ferramentas: </h3>
 
 <h4>Formulario de Login: </h4>
