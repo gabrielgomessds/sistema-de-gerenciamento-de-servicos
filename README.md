@@ -19,12 +19,6 @@ Esse sistema foi meu primeiro freelancer, recebi a aprovação do comprador para
   <li>PHP POO seguindo o padrão MVC</li>
 </ol>
 
-<h3>:dart: Como usar:</h3>
-<ol>
-  <li>Ter instalado PHP 7.3</li>
-  <li>Ter instalado o XAMPP</li>
-</ol>
-
 <h3>:wrench: Funcionalidades: </h3>
 <ol>
   <li>Cadastro de Serviços</li>
@@ -32,6 +26,12 @@ Esse sistema foi meu primeiro freelancer, recebi a aprovação do comprador para
   <li>Cadastro de Produtos</li>
   <li>Controle de estoque</li>
   <li>Geração de nota de serviço</li>
+</ol>
+
+<h3>:dart: Como usar:</h3>
+<ol>
+  <li>Ter instalado PHP 7.3</li>
+  <li>Ter instalado o XAMPP</li>
 </ol>
 
 <h3>:camera: Imagens do Projeto:</h3>
